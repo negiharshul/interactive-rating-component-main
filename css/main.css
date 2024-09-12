@@ -1,0 +1,120 @@
+.after-click-1, .after-click-2, .after-click-3, .after-click-4, .after-click-5 {
+    background-color: #fc7710;
+    color:#ffffff;
+    border: none;
+    border-radius: 100%;
+    padding: 10px;
+    width: 35px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #1e252f;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.star-icon{
+    background-color: #292e36;
+    width: 15px;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.container img{
+    width: 15px;
+}
+
+p{
+    color: #787f89;
+    font-size: 14px;
+}
+
+.ratings{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratings2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.rating-button-1, .rating-button-2, .rating-button-3, .rating-button-4, .rating-button-5  {
+    color:#787f89;
+    background-color: #292e38;
+    border: none;
+    border-radius: 100%;
+    padding: 10px;
+    width: 35px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rating-button:hover {
+    background-color: #7c8897;
+    color: white;
+}
+
+
+
+.submit-button{
+    color: white;
+    background-color: #f27c29;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    background-color: white;
+    color: #f27c29
+}
+
+.illustration {
+    height: 1;
+    width: 100%;
+}
+
+.description2 {
+    text-align: center;
+}
+
+.greetings {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.user-ratings {
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #2c1e15;
+    color: #fc7710;
+    padding: 5px 1px;
+    border-radius: 10px;
+}
+
+.illustration {
+    height: 100px;
+    width: 100px;
+}
